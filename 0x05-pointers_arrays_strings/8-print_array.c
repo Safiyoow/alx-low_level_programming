@@ -1,13 +1,14 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
- * _strcpy - Copies a string pointed to by @src, including the
- *           terminating null byte, to a buffer pointed to by @dest.
- * @dest: A buffer to copy the string to.
- * @src: The source string to copy.
+ * print_array - unction that prints n elements of an array of integers
  *
- * Return: A pointer to the destination string @dest.
+ * @a: pointer to first int
+ * @n: pointer to second int
+ * Return: nothing
  */
+
 void print_array(int *a, int n)
 {
 	int i = 0;
